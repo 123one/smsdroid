@@ -57,7 +57,7 @@
                 android:id="@+id/text"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:autoText="true"
+                android:layout_toRightOf="@+id/bua_btn"
                 android:gravity="top"
                 android:hint="@string/text_hint"
                 android:imeOptions="actionDone|flagNoEnterAction"
@@ -65,43 +65,23 @@
                 android:maxLines="4"
                 android:nextFocusRight="@+id/send_" />
 
-            <TextView
-                android:id="@+id/text_"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/text"
-                android:layout_alignParentRight="true"
-                android:background="#88000000"
-                android:paddingBottom="3dip"
-                android:paddingLeft="3dip"
-                android:paddingRight="3dip"
-                android:textColor="#ffffffff"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/text_paste"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@id/text"
+            <Button
+                android:id="@+id/bua_btn"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
                 android:layout_alignParentLeft="true"
-                android:background="#88000000"
-                android:clickable="true"
-                android:focusable="true"
-                android:paddingBottom="3dip"
-                android:paddingLeft="3dip"
-                android:paddingRight="3dip"
-                android:text="@string/paste_"
-                android:textColor="#ffffffff"
-                android:textStyle="bold" />
+                android:layout_alignParentTop="true"
+                android:drawableTop="@drawable/conv_opt_convert_mms"/>
+
         </RelativeLayout>
 
         <Button
             android:id="@+id/send_"
             style="?android:attr/borderlessButtonStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
-            android:drawableTop="@android:drawable/ic_menu_send"
-            android:text="@string/send_" />
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:drawableTop="@android:drawable/ic_menu_send"/>
     </LinearLayout>
 
 </RelativeLayout>

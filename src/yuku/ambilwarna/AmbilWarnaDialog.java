@@ -10,7 +10,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AbsoluteLayout;
 import android.widget.ImageView;
-import de.ub0r.android.smsdroid.R;
+
+import com.actionbarsherlock.R;
 
 public class AmbilWarnaDialog {
 	private static final String TAG = AmbilWarnaDialog.class.getSimpleName();

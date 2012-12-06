@@ -41,6 +41,7 @@
 			android:text="(@id/count)" android:textAppearance="?android:attr/textAppearanceMedium"
 			android:paddingRight="2dip" />
 		<TextView android:text="@+id/addr" android:id="@+id/addr"
+		    android:textStyle="bold"
 			android:layout_width="wrap_content" android:layout_height="wrap_content"
 			android:layout_toLeftOf="@+id/count" android:layout_alignParentLeft="true"
 			android:singleLine="true" android:textAppearance="?android:attr/textAppearanceMedium" />

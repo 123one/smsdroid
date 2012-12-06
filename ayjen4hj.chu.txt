@@ -1,0 +1,136 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	modified:   .classpath
+#	modified:   .project
+#	new file:   .settings/org.eclipse.core.resources.prefs
+#	modified:   .settings/org.eclipse.jdt.core.prefs
+#	modified:   AndroidManifest.xml
+#	new file:   libs/android-support-v4.jar
+#	new file:   libs/jsoup-1.7.1.jar
+#	new file:   lint.xml
+#	modified:   project.properties
+#	new file:   res/anim/disappear.xml
+#	new file:   res/anim/grow_from_bottom.xml
+#	new file:   res/anim/grow_from_bottomleft_to_topright.xml
+#	new file:   res/anim/grow_from_bottomright_to_topleft.xml
+#	new file:   res/anim/grow_from_top.xml
+#	new file:   res/anim/grow_from_topleft_to_bottomright.xml
+#	new file:   res/anim/grow_from_topright_to_bottomleft.xml
+#	new file:   res/anim/pump_bottom.xml
+#	new file:   res/anim/pump_top.xml
+#	new file:   res/anim/rail.xml
+#	new file:   res/anim/shrink_from_bottom.xml
+#	new file:   res/anim/shrink_from_bottomleft_to_topright.xml
+#	new file:   res/anim/shrink_from_bottomright_to_topleft.xml
+#	new file:   res/anim/shrink_from_top.xml
+#	new file:   res/anim/shrink_from_topleft_to_bottomright.xml
+#	new file:   res/anim/shrink_from_topright_to_bottomleft.xml
+#	modified:   res/drawable-hdpi/ic_contact_picture.png
+#	new file:   res/drawable-hdpi/ic_menu_collection.png
+#	modified:   res/drawable-hdpi/icon.png
+#	new file:   res/drawable-hdpi/stat_notify_sms_yellow_own.png
+#	modified:   res/drawable-ldpi/icon.png
+#	new file:   res/drawable-ldpi/stat_notify_sms_yellow_own.png
+#	modified:   res/drawable-mdpi/ic_contact_picture.png
+#	new file:   res/drawable-mdpi/ic_menu_collection.png
+#	modified:   res/drawable-mdpi/icon.png
+#	new file:   res/drawable-mdpi/stat_notify_sms_yellow_own.png
+#	new file:   res/drawable-xhdpi/ic_menu_collection.png
+#	modified:   res/drawable-xhdpi/icon.png
+#	new file:   res/drawable-xhdpi/stat_notify_sms_yellow_own.png
+#	new file:   res/drawable/action_item_btn.xml
+#	new file:   res/drawable/action_item_selected.9.png
+#	new file:   res/drawable/arrow_down.png
+#	new file:   res/drawable/arrow_up.png
+#	new file:   res/drawable/conv_opt_convert_mms.png
+#	new file:   res/drawable/conv_receive_bubble_focused.9.png
+#	new file:   res/drawable/conv_sent_bubble.9.png
+#	modified:   res/drawable/ic_contact_picture.png
+#	new file:   res/drawable/icon.png
+#	new file:   res/drawable/menu_cancel.png
+#	new file:   res/drawable/menu_down_arrow.png
+#	new file:   res/drawable/menu_eraser.png
+#	new file:   res/drawable/menu_info.png
+#	new file:   res/drawable/menu_ok.png
+#	new file:   res/drawable/menu_search.png
+#	new file:   res/drawable/menu_up_arrow.png
+#	new file:   res/drawable/panel_background.9.png
+#	new file:   res/drawable/popup.9.png
+#	new file:   res/drawable/smile_1.png
+#	new file:   res/drawable/smile_2.png
+#	new file:   res/drawable/smile_3.png
+#	new file:   res/drawable/smile_4.png
+#	new file:   res/drawable/smile_5.png
+#	new file:   res/drawable/smile_6.png
+#	new file:   res/drawable/smile_7.png
+#	new file:   res/drawable/smile_8.png
+#	new file:   res/drawable/stat_notify_sms_yellow_own.png
+#	new file:   res/layout/action_item_horizontal.xml
+#	new file:   res/layout/action_item_vertical.xml
+#	modified:   res/layout/conversationlist.xml
+#	modified:   res/layout/conversationlist_item.xml
+#	new file:   res/layout/emo_girdview.xml
+#	new file:   res/layout/emo_grid_row.xml
+#	new file:   res/layout/horiz_separator.xml
+#	modified:   res/layout/messagelist.xml
+#	new file:   res/layout/popup_horizontal.xml
+#	new file:   res/layout/popup_vertical.xml
+#	new file:   res/layout/sms_collection_item.xml
+#	new file:   res/layout/sms_collection_list.xml
+#	modified:   res/menu-large/conversationlist.xml
+#	modified:   res/menu-xlarge/conversationlist.xml
+#	modified:   res/menu/conversationlist.xml
+#	modified:   res/menu/sender.xml
+#	modified:   res/values/base.xml
+#	modified:   res/values/styles.xml
+#	new file:   src/com/nnm/SmsHandle/AccentRemover.java
+#	new file:   src/com/nnm/SmsHandle/HandleSms.java
+#	new file:   src/com/nnm/SmsHandle/Utlis.java
+#	new file:   src/com/nnm/smsviet/AboutActivity.java
+#	new file:   src/com/nnm/smsviet/Ads.java
+#	new file:   src/com/nnm/smsviet/AsyncHelper.java
+#	new file:   src/com/nnm/smsviet/BrowseSms.java
+#	new file:   src/com/nnm/smsviet/BrowseSmsCatalog.java
+#	new file:   src/com/nnm/smsviet/Cons.java
+#	new file:   src/com/nnm/smsviet/Conversation.java
+#	new file:   src/com/nnm/smsviet/ConversationAdapter.java
+#	new file:   src/com/nnm/smsviet/ConversationListActivity.java
+#	new file:   src/com/nnm/smsviet/Converter.java
+#	new file:   src/com/nnm/smsviet/EmoAdapter.java
+#	new file:   src/com/nnm/smsviet/FavSmS.java
+#	new file:   src/com/nnm/smsviet/HeaderPreferenceFragment.java
+#	new file:   src/com/nnm/smsviet/Message.java
+#	new file:   src/com/nnm/smsviet/MessageAdapter.java
+#	new file:   src/com/nnm/smsviet/MessageListActivity.java
+#	new file:   src/com/nnm/smsviet/MessageProvider.java
+#	new file:   src/com/nnm/smsviet/MobilePhoneAdapter.java
+#	new file:   src/com/nnm/smsviet/MyTextWatcher.java
+#	new file:   src/com/nnm/smsviet/Preferences11Activity.java
+#	new file:   src/com/nnm/smsviet/PreferencesActivity.java
+#	new file:   src/com/nnm/smsviet/PreferencesAppearanceActivity.java
+#	new file:   src/com/nnm/smsviet/PreferencesBehaviorActivity.java
+#	new file:   src/com/nnm/smsviet/PreferencesNotificationActivity.java
+#	new file:   src/com/nnm/smsviet/SMSdroid.java
+#	new file:   src/com/nnm/smsviet/SearchProvider.java
+#	new file:   src/com/nnm/smsviet/SenderActivity.java
+#	new file:   src/com/nnm/smsviet/SmSCatalogAdapter.java
+#	new file:   src/com/nnm/smsviet/SmSCollectionAdapter.java
+#	new file:   src/com/nnm/smsviet/SmileyParser.java
+#	new file:   src/com/nnm/smsviet/SmsCatalog.java
+#	new file:   src/com/nnm/smsviet/SmsDbHelper.java
+#	new file:   src/com/nnm/smsviet/SmsReceiver.java
+#	new file:   src/com/nnm/smsviet/SpamDB.java
+#	new file:   src/com/nnm/smsviet/WidgetProvider.java
+#	new file:   src/com/nnm/smsviet/package-info.java
+#	new file:   src/com/nnm/widget/quickAction/ActionItem.java
+#	new file:   src/com/nnm/widget/quickAction/PopupWindows.java
+#	new file:   src/com/nnm/widget/quickAction/QuickAction.java
+#	modified:   src/yuku/ambilwarna/AmbilWarnaDialog.java
+#	modified:   src/yuku/ambilwarna/AmbilWarnaKotak.java
+#
+

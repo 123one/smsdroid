@@ -15,10 +15,10 @@
 		not, see <http://www.gnu.org/licenses/>.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.ub0r.android.smsdroid"
+    package="com.nnm.smsviet"
     android:installLocation="internalOnly"
-    android:versionCode="7140002"
-    android:versionName="1.4" >
+    android:versionCode="2"
+    android:versionName="1.0.2" >
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -59,7 +59,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
-        android:name=".SMSdroid"
+        android:name="com.nnm.smsviet.SMSdroid"
         android:hardwareAccelerated="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
@@ -163,7 +163,7 @@
                 <data android:mimeType="application/vnd.wap.mms-message" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".WidgetProvider" >
+        <receiver android:name="com.nnm.smsviet.WidgetProvider" >
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/appwidget_provider" />
@@ -175,10 +175,10 @@
 
         <provider
             android:name=".MessageProvider"
-            android:authorities="de.ub0r.android.smsdroid" />
+            android:authorities="com.nnm.vietsms" />
         <provider
-            android:name=".SearchProvider"
-            android:authorities="de.ub0r.android.smsdroid.SearchProvider"
+            android:name="com.nnm.smsviet.SearchProvider"
+            android:authorities="com.nnm.vietsms.SearchProvider"
             android:syncable="false" />
 
         <activity
@@ -189,6 +189,17 @@
         <meta-data
             android:name="android.app.default_searchable"
             android:value=".ConversationList" />
+
+        <activity
+            android:name="BrowseSmsCatalog"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.SherlockSMSdroid_Light" >
+        </activity>
+        <activity
+            android:name="com.nnm.smsviet.BrowseSms"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.SherlockSMSdroid_Light" >
+        </activity>
     </application>
 
 </manifest>

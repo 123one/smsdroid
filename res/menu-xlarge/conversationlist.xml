@@ -15,7 +15,11 @@
 		not, see <http://www.gnu.org/licenses/>.
 -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
-
+    <item
+        android:id="@+id/item_collection"
+        android:icon="@drawable/ic_menu_collection"
+        android:showAsAction="always|never"
+        android:title="Sms Collections"/>
     <item
         android:id="@+id/item_compose"
         android:icon="@drawable/ic_menu_compose"
@@ -31,12 +35,7 @@
         android:icon="@android:drawable/ic_menu_delete"
         android:title="@string/delete_threads_"/>
     <item
-        android:id="@+id/item_settings"
-        android:icon="@android:drawable/ic_menu_preferences"
-        android:title="@string/settings"/>
-    <item
-        android:id="@+id/item_donate"
-        android:icon="@drawable/ic_menu_star"
-        android:title="@string/donate_remove_ads_"/>
-
+        android:id="@+id/item_more_app"
+        android:icon="@android:drawable/ic_menu_more"
+        android:title="More apps"/>
 </menu>
